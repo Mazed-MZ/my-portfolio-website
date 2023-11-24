@@ -1,0 +1,106 @@
+.card_head{
+    border-bottom: 2px solid gray;
+    margin-bottom: 5%;
+}
+
+.overlay{
+    background-color: rgba(0,0,0,0.75);
+    color: #fff;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    top: 0%;
+    left: 0%;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 960px){
+    .overlay{
+        background-color: rgba(0,0,0,0.95);
+        color: #fff;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        top: 0%;
+        left: 0%;
+        height: 100%;
+        width: 100%;
+        box-sizing: border-box;
+    }
+}
+
+.hover_content{
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+}
+
+.service_section{
+    padding: 5%;
+}
+
+.card_item{
+    overflow: hidden;
+    position: relative;
+    border-radius: 20px;
+}
+
+.card_item:hover .hover_content{
+    opacity: 1;
+    transition: all 0.5s ease-in-out;
+}
+
+.card_item img{
+    height: 100%;
+}
+
+.card_element{
+    background: linear-gradient(180deg, #010606, #010606, #01bf71);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card_element h5{
+    color: white;
+}
+
+.card_element p{
+    margin-top: 10%;
+    color: gray;
+}
+
+.modal_section img{
+    border-radius: 20px;
+    width: 100%;
+}
+
+.modal_info h5{
+    margin-top: 3%;
+    padding-bottom: 1%;
+    border-bottom: 1px solid #010606;
+
+}
+
+.modal_txt{
+    margin-top: 3%;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.modal_div_1{
+    margin-right: 5%;
+}
+.modal_div_2{
+    margin-left: 5%;
+}

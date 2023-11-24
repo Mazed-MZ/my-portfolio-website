@@ -1,0 +1,41 @@
+.about__div{
+    display: flex;
+    justify-content: space-evenly;
+    border-top: 1px solid gray;
+    padding-bottom: 10%;
+}
+
+.txt-area{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about__info--title{
+    font-size: 40px;
+    font-weight: 20px;
+    color: lightgreen;
+}
+
+.about__info--name{
+    font-family: 'Operator Mono';
+    font-size: 25px;
+}
+
+.icon{
+    font-size: 30px;
+    padding-right: 3%;
+}
+
+.about__info--name,
+.about__info--title, .icon{
+    display: block;
+    text-align: center;
+    padding: 5% 0;
+}
+
+@media screen and (max-width: 768px) {
+    .about__info--name{
+        font-size: 18px;
+    }
+}
